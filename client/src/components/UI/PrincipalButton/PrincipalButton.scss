@@ -1,0 +1,86 @@
+.principal_button {
+    padding: 5px 15px;
+
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 16px;
+
+    transition: 400ms ease all;
+}
+
+.principal_button:hover {
+    opacity: 0.6;
+}
+
+.principal_button--blue {
+    background-color: var(--me-color-cyan-700);
+    color: var(--me-color-cyan-50);
+    border: 1px solid var(--me-color-cyan-700);
+}
+
+.principal_button--green {
+    background-color: var(--me-color-green-700);
+    color: var(--me-color-green-50);
+    border: 1px solid var(--me-color-green-700);
+}
+
+.principal_button--orange {
+    background-color: var(--me-color-orange-700);
+    color: var(--me-color-orange-50);
+    border: 1px solid var(--me-color-orange-700);
+}
+
+.principal_button--purple {
+    background-color: var(--me-color-purple-700);
+    color: var(--me-color-purple-50);
+    border: 1px solid var(--me-color-purple-700);
+}
+
+.principal_button--red {
+    background-color: var(--me-color-red-700);
+    color: var(--me-color-red-50);
+    border: 1px solid var(--me-color-red-700);
+}
+
+.principal_button--yellow {
+    background-color: var(--me-color-yellow-700);
+    color: var(--me-color-yellow-50);
+    border: 1px solid var(--me-color-yellow-700);
+}
+
+.principal_button--blue_lighter {
+    background-color: var(--me-color-cyan-50);
+    color: var(--me-color-cyan-700);
+    border: 1px solid var(--me-color-cyan-50);
+}
+
+.principal_button--green_lighter {
+    background-color: var(--me-color-green-50);
+    color: var(--me-color-green-700);
+    border: 1px solid var(--me-color-green-50);
+}
+
+.principal_button--orange_lighter {
+    background-color: var(--me-color-orange-50);
+    color: var(--me-color-orange-700);
+    border: 1px solid var(--me-color-orange-50);
+}
+
+.principal_button--purple_lighter {
+    background-color: var(--me-color-purple-50);
+    color: var(--me-color-purple-700);
+    border: 1px solid var(--me-color-purple-50);
+}
+
+.principal_button--red_lighter {
+    background-color: var(--me-color-red-50);
+    color: var(--me-color-red-700);
+    border: 1px solid var(--me-color-red-50);
+}
+
+.principal_button--yellow_lighter {
+    background-color: var(--me-color-yellow-50);
+    color: var(--me-color-yellow-700);
+    border: 1px solid var(--me-color-yellow-500);
+}

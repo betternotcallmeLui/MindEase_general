@@ -1,0 +1,6 @@
+.home_triangle {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--me-color-green-700);
+    clip-path: polygon(0 0, 100% 0, 100% 60%, 0% 100%);
+}

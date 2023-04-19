@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --font-family-primary: 'Montserrat', sans-serif;
+    --font-family-secondary: system-ui, -apple-system;
+}
+
+:root {
+    --me-bg-color: rgb(246, 246, 246);
+    --me-text-color: rgb(8, 28, 21);
+    --me-principal-color: rgb(216, 226, 208);
+    --me-secondary-color: rgb(137, 214, 101);
+}
+
+:root {
+    --me-color-black: rgb(0, 0, 0);
+    --me-color-white: rgb(255, 255, 255);
+    --me-color-gray-50: rgb(247, 250, 252);
+    --me-color-gray-100: rgb(227, 232, 238);
+    --me-color-gray-200: rgb(193, 201, 210);
+    --me-color-gray-300: rgb(163, 172, 185);
+    --me-color-gray-400: rgb(135, 146, 162);
+    --me-color-gray-500: rgb(105, 115, 134);
+    --me-color-gray-600: rgb(79, 86, 107);
+    --me-color-gray-700: rgb(60, 66, 87);
+    --me-color-gray-800: rgb(42, 47, 69);
+    --me-color-gray-900: rgb(26, 31, 54);
+    --me-color-blue-50: rgb(245, 251, 255);
+    --me-color-blue-100: rgb(214, 236, 255);
+    --me-color-blue-200: rgb(164, 205, 254);
+    --me-color-blue-300: rgb(125, 171, 248);
+    --me-color-blue-400: rgb(108, 142, 239);
+    --me-color-blue-500: rgb(84, 105, 212);
+    --me-color-blue-600: rgb(61, 78, 172);
+    --me-color-blue-700: rgb(47, 61, 137);
+    --me-color-blue-800: rgb(33, 45, 99);
+    --me-color-blue-900: rgb(19, 31, 65);
+    --me-color-cyan-50: rgb(237, 253, 253);
+    --me-color-cyan-100: rgb(196, 241, 249);
+    --me-color-cyan-200: rgb(127, 211, 237);
+    --me-color-cyan-300: rgb(77, 183, 232);
+    --me-color-cyan-400: rgb(58, 151, 212);
+    --me-color-cyan-500: rgb(6, 122, 184);
+    --me-color-cyan-600: rgb(7, 89, 150);
+    --me-color-cyan-700: rgb(6, 69, 122);
+    --me-color-cyan-800: rgb(9, 51, 83);
+    --me-color-cyan-900: rgb(4, 34, 53);
+    --me-color-green-50: rgb(239, 255, 237);
+    --me-color-green-100: rgb(203, 244, 201);
+    --me-color-green-200: rgb(133, 217, 150);
+    --me-color-green-300: rgb(51, 194, 127);
+    --me-color-green-400: rgb(30, 166, 114);
+    --me-color-green-500: rgb(9, 130, 93);
+    --me-color-green-600: rgb(14, 98, 69);
+    --me-color-green-700: rgb(13, 75, 59);
+    --me-color-green-800: rgb(11, 55, 51);
+    --me-color-green-900: rgb(8, 36, 41);
+    --me-color-yellow-50: rgb(252, 249, 233);
+    --me-color-yellow-100: rgb(248, 229, 185);
+    --me-color-yellow-200: rgb(239, 192, 120);
+    --me-color-yellow-300: rgb(229, 153, 62);
+    --me-color-yellow-400: rgb(217, 121, 23);
+    --me-color-yellow-500: rgb(187, 85, 4);
+    --me-color-yellow-600: rgb(152, 55, 5);
+    --me-color-yellow-700: rgb(118, 43, 11);
+    --me-color-yellow-800: rgb(87, 31, 13);
+    --me-color-yellow-900: rgb(58, 22, 7);
+    --me-color-orange-50: rgb(255, 250, 238);
+    --me-color-orange-100: rgb(254, 227, 192);
+    --me-color-orange-200: rgb(248, 184, 134);
+    --me-color-orange-300: rgb(245, 146, 94);
+    --me-color-orange-400: rgb(229, 111, 74);
+    --me-color-orange-500: rgb(196, 76, 52);
+    --me-color-orange-600: rgb(158, 47, 40);
+    --me-color-orange-700: rgb(126, 30, 35);
+    --me-color-orange-800: rgb(93, 22, 27);
+    --me-color-orange-900: rgb(66, 14, 17);
+    --me-color-red-50: rgb(255, 248, 245);
+    --me-color-red-100: rgb(253, 226, 221);
+    --me-color-red-200: rgb(251, 181, 178);
+    --me-color-red-300: rgb(250, 131, 137);
+    --me-color-red-400: rgb(237, 95, 116);
+    --me-color-red-500: rgb(205, 61, 100);
+    --me-color-red-600: rgb(164, 28, 78);
+    --me-color-red-700: rgb(128, 20, 63);
+    --me-color-red-800: rgb(94, 16, 57);
+    --me-color-red-900: rgb(66, 8, 40);
+    --me-color-purple-50: rgb(255, 248, 254);
+    --me-color-purple-100: rgb(252, 224, 246);
+    --me-color-purple-200: rgb(240, 180, 228);
+    --me-color-purple-300: rgb(226, 141, 220);
+    --me-color-purple-400: rgb(201, 110, 208);
+    --me-color-purple-500: rgb(164, 80, 181);
+    --me-color-purple-600: rgb(123, 57, 151);
+    --me-color-purple-700: rgb(91, 43, 128);
+    --me-color-purple-800: rgb(64, 29, 106);
+    --me-color-purple-900: rgb(45, 15, 85);
+    --me-color-violet-50: rgb(248, 249, 254);
+    --me-color-violet-100: rgb(230, 230, 252);
+    --me-color-violet-200: rgb(199, 194, 234);
+    --me-color-violet-300: rgb(176, 161, 225);
+    --me-color-violet-400: rgb(156, 130, 219);
+    --me-color-violet-500: rgb(130, 96, 195);
+    --me-color-violet-600: rgb(97, 70, 155);
+    --me-color-violet-700: rgb(75, 52, 128);
+    --me-color-violet-800: rgb(53, 36, 101);
+    --me-color-violet-900: rgb(31, 24, 78);
+}
+
+:root {
+    --me-box-shadow: box-shadow: 0 15px 35px 0 rgba(60, 66, 87, 0.08), 0 5px 15px 0 rgba(0, 0, 0, 0.12);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family-primary);
+    color: var(--me-text-color);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--me-color-green-50);
+}
+
+.link {
+    text-decoration: none;
+}
